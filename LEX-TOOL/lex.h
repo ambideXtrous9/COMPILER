@@ -1,0 +1,42 @@
+#include<iostream>
+#include<bits/stdc++.h>
+using namespace std;
+
+#define LPAREN_TOK '('
+#define RPAREN_TOK ')'
+#define LCURL_TOK '{'
+#define RCURL_TOK '}'
+#define LSQR_TOK '['
+#define RSQR_TOK ']'
+#define PLUS_TOK '+'
+#define MINUS_TOK '-'
+#define MULT_TOK '*'
+#define DIVIDE_TOK '/'
+#define MOD_TOK '%'
+#define ASSIGNMENT_TOK '='
+#define SEMICOLON_TOK ';'
+#define NOT_TOK '!'
+#define COMMA_TOK ','
+#define LESS_THAN_TOK '<'
+#define GREATER_THAN_TOK '>'
+#define EQUALITY_TOK 256
+#define NOT_EQUAL_TOK 257
+#define LESS_THAN_EQUAL_TO_TOK 258
+#define MORE_THAN_EQUAL_TO_TOK 258
+#define INCR_TOK 259
+#define DECR_TOK 260
+#define LOG_AND_TOK 261
+#define LOG_OR_TOK 263
+#define FOR_TOK 264
+#define COMPARE_TOK 500
+#define SWITCH_TOK 265
+#define CASE_TOK 266
+#define IF_TOK 267
+#define ELSE_TOK 268
+#define WHILE_TOK 269
+#define TYPE_TOK 270
+#define ID_TOK 271
+#define INT_CONST_TOK 272
+#define SPACE 273
+#define NUMBER_TOK 300
+#define DEC_TOK 400
